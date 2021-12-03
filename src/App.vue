@@ -38,12 +38,12 @@
           class="flex items-center w-full hover:bg-lightblue rounded-full p-2 focus:outline-none"
         >
           <img
-            src="profile.png"
+            src="profile.jpg"
             class="w-10 h-10 rounded-full border border-lighter"
           />
           <div class="hidden lg:block ml-4">
-            <p class="text-sm font-bold leading-tight">Steph Dietz</p>
-            <p class="text-sm leading-tight">@SaaSyEth</p>
+            <p class="text-sm font-bold leading-tight">Vinay Solanki</p>
+            <p class="text-sm leading-tight">@vinaysolanki</p>
           </div>
           <i class="hidden lg:block fas fa-angle-down ml-auto text-lg"></i>
         </button>
@@ -56,12 +56,12 @@
             class="p-3 flex items-center w-full hover:bg-lightest p-2 focus:outline-none"
           >
             <img
-              src="profile.png"
+              src="profile.jpg"
               class="w-10 h-10 rounded-full border border-lighter"
             />
             <div class="ml-4">
-              <p class="text-sm font-bold leading-tight">Steph Dietz</p>
-              <p class="text-sm leading-tight">@SaaSyEth</p>
+              <p class="text-sm font-bold leading-tight">Vinay Solanki</p>
+              <p class="text-sm leading-tight">@VinaySolanki</p>
             </div>
             <i class="fas fa-check ml-auto test-blue"></i>
           </button>
@@ -75,7 +75,7 @@
             @click="dropdown = false"
             class="w-full text-left hover:bg-lightest border-t border-lighter p-3 test-sm focus:outline-none"
           >
-            Log out @SaaSyEth
+            Log out @VinaySolanki
           </button>
         </div>
       </div>
@@ -91,7 +91,7 @@
       <div class="px-5 py-3 border-b-8 border-lighter flex">
         <div class="flex-none">
           <img
-            src="profile.png"
+            src="profile.jpg"
             class="flex-none w-12 h-12 rounded-full border border-lighter"
           />
         </div>
@@ -109,7 +109,7 @@
           </div>
           <button
             type="submit"
-            class="h-10 px-4 text-white font-semibold bg-blue hover:bg-darkblue focus:outline-none rounded-full absolute bottom-0 right-0"
+            class="h-10 px-4 text-white font-semibold bg-blue hover:bg-darkblue focus:outline-none rounded-full absolute bottom-0 right-0 submitButton"
           >
             Tweet
           </button>
@@ -122,12 +122,12 @@
           class="w-full p-4 border-b hover:bg-lighter flex"
         >
           <div class="flex-none mr-4">
-            <img src="profile.png" class="h-12 w-12 rounded-full flex-none" />
+            <img src="profile.jpg" class="h-12 w-12 rounded-full flex-none" />
           </div>
           <div class="w-full">
             <div class="flex items-center w-full">
-              <p class="font-semibold">Steph Dietz</p>
-              <p class="text-sm text-dark ml-2">@SaaSyEth</p>
+              <p class="font-semibold">Vinay Solanki</p>
+              <p class="text-sm text-dark ml-2">@VinaySolanki</p>
               <p class="text-sm text-dark ml-2">1 sec</p>
               <i class="fas fa-angle-down text-dark ml-auto"></i>
             </div>
@@ -371,6 +371,13 @@ export default {
 
 .iconListColor:hover {
   background-color: #eff9ff;
+}
+
+.submitButton {
+  background-color: #1da1f2;
+}
+.submitButton:hover {
+  background-color: #657786;
 }
 
 .iconButton:hover {
