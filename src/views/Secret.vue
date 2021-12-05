@@ -271,7 +271,6 @@
 <script>
 import '../../tailwind.confing'
 export default {
-  name: 'app',
   components: {},
   data() {
     return {
